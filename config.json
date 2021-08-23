@@ -1,0 +1,47 @@
+{
+    "token": "ODc5MDYwNDgyODI3Mzc0NjUy.YSKO3w.EZ7q6xvXwH02jSWwXDopRdXE4u4",
+    "prefix": "!",
+    "colors": "Use the name field - https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812",
+    "groups": [
+        {
+            "name": "Gaming",
+            "roles": [
+                [
+                    "CSGO",
+                    "DARK_BLUE",
+                    true
+                ],
+                [
+                    "R6",
+                    "DARK_BLUE",
+                    false
+                ],
+                [
+                    "PUBG",
+                    "DARK_BLUE",
+                    true
+                ]
+            ]
+        },
+        {
+            "name": "Hobby",
+            "roles": [
+                [
+                    "Cooking",
+                    "DARK_RED",
+                    false
+                ],
+                [
+                    "Running",
+                    "DARK_BLUE",
+                    false
+                ],
+                [
+                    "First Aid",
+                    "DARK_BLUE",
+                    false
+                ]
+            ]
+        }
+    ]
+}
