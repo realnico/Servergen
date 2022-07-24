@@ -1,0 +1,8 @@
+# this small file will remove the .html extension from your Stacket Site
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
